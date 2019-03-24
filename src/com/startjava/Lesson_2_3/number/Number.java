@@ -1,4 +1,5 @@
-package com.startjava.number;
+package com.startjava.lesson_2_3.number;
+
 public class Number{
 	public static void main (String[] args){
 		int computerNumber = 3;

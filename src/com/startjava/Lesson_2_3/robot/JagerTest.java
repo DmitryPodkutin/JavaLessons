@@ -1,4 +1,5 @@
-package com.startjava.robot;
+package com.startjava.lesson_2_3.robot;
+
 public class JagerTest{
 	public static void main (String[] args){
 		Jager gipsyDanger = new Jager("Gipsy Danger", "Mark-3", "USA", 6, 7, 9);

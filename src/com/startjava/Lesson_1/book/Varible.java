@@ -1,3 +1,5 @@
+package com.startjava.lesson_1.book;
+
 public class Varible{
 	 public static void main(String[] args) {
 		String name = "MacBook";

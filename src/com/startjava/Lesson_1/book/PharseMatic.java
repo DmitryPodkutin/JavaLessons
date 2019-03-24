@@ -1,3 +1,5 @@
+package com.startjava.lesson_1.book;
+
 public class PharseMatic{
 	public static void main (String[] args){
 	String[] wordListOne = {" Круглосуточный", "трехзвенный", "3000 футовый", 

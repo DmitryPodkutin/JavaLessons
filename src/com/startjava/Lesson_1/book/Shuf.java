@@ -1,3 +1,5 @@
+package com.startjava.lesson_1.book;
+
 public class Shuf{
 	public static void main (String[] args){
 	int x = 3;
