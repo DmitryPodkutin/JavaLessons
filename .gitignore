@@ -2,3 +2,4 @@ out
 .gitignore
 .idea
 startjava.iml
+src/com/startjava/lesson_4/array/Test.java
