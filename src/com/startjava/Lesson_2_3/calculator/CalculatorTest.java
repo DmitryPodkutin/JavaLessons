@@ -10,17 +10,14 @@ public class CalculatorTest {
             Scanner scan = new Scanner(System.in);
             Calculator calculator = new Calculator();
 
-            System.out.print("Введите первое число: ");
-            int firstNumber = scan.nextInt();
+            System.out.print("Введите через пробел матиматическое выражеие: ");
+            String mathematicExpression = scan.nextLine();
+            String[] parts = mathematicExpression.split(" ");
+            int firstNumber = Integer.parseInt(parts[0]);
+            String mathOperation = parts[1];
+            int secondNumber = Integer.parseInt(parts[2]);
             calculator.setFirstNumber(firstNumber);
-
-            System.out.print("Введите операцию: ");
-            ;
-            char mathOperation = scan.next().charAt(0);
             calculator.setMathOperation(mathOperation);
-
-            System.out.print("Введите второе число: ");
-            int secondNumber = scan.nextInt();
             calculator.setSecondNumber(secondNumber);
 
             calculator.calculate();
